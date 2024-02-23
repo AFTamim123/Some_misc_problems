@@ -1,0 +1,23 @@
+https://codeforces.com/contest/1903/problem/C
+
+Intuition:
+	Taking only the positive suffix sum will work
+
+proof: for {2 9 -5 -3}
+	if we take one element per subarray then :
+	1*2+2*(9)+3*(-5)+4*(-3)
+
+So it wont give the maximum answer as we are multiplying the
+negative numbers many times. So we can add them to the positive numbers.
+Like {9,-5,-3}. So the subarray sum wont be negative. And adding it will
+not cause the ans to decrease.
+
+Taking suffix sum will work because if we take suffix sum till 2 (index 0).
+It will also add the previous subarray {9,-5,-3}
+Automatically adding the previous subarray its equal to multiplying it 
+with its order number.
+Like {2+{9,-5,-3}} + {9,-5,-3}
+here {9,-5,-3} is the second subarray and its contributing to the answer two times
+
+Edge case: the 0th suffix sum will always contribute to the ans as we
+			cant erase element from the array  
