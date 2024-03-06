@@ -14,7 +14,7 @@ Proof:
     if we remove 7 from the array 
     then |1-3|+|3-9|=2+6=8
     This is because only the first and the last elements difference of an
-    increasing/decreasing sequnce matters.
+    increasing/decreasing sequence matters.
 
 problems:
     https://codeforces.com/problemset/problem/1364/B
