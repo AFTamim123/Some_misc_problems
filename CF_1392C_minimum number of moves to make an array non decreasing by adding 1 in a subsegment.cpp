@@ -1,4 +1,4 @@
-// minimum number of moves to make an array non decreasiing
+// # minimum number of moves to make an array non decreasiing
 // ans id sum of all max(a[i]-a[i+1], 0);
 // for 5,4,2
 // the need is 0,1,3
@@ -7,7 +7,6 @@
 // so all the next element will be +1
 // think it in a number line
 // then for a[i+1] we need a[i+1]-a[i+2]
-
 #include <bits/stdc++.h>
 #include <ext/pb_ds/assoc_container.hpp> 
 #include <ext/pb_ds/tree_policy.hpp>
@@ -60,3 +59,6 @@ int main() {
 
     return 0;
 }
+
+
+// https://codeforces.com/contest/1392/problem/C
