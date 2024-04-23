@@ -52,5 +52,6 @@ int32_t main() {
 
     return 0;
 }
-// https://toph.co/arena?practice=662478c3ab95789658745ee3#!/p/66011ff8d21a3a71038fce87
+// 1.https://usaco.org/index.php?page=viewproblem2&cpid=595
+// 2.https://toph.co/arena?practice=662478c3ab95789658745ee3#!/p/66011ff8d21a3a71038fce87
 // problem c of the linked contest
